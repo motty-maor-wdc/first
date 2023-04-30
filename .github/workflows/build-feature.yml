@@ -5,9 +5,9 @@ name: Java CI
 
 on:
   push:
-    branches: [ "dex-xtf","dev-elastic" ]
+    branches: [ "main","dex-xtf","dev-elastic" ]
   pull_request:
-    branches: [ "dex-xtf","dev-elastic" ]
+    branches: [ "main","dex-xtf","dev-elastic" ]
 
 jobs:
   build:

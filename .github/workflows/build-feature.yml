@@ -24,4 +24,4 @@ jobs:
     - name: Prints the current branch
       run: echo "${GITHUB_REF##*/}"
     - name: Build with Ant
-      run: ant -noinput -buildfile build-xtools.xml --feature=${GITHUB_REF##*/}
+      run: ant -noinput -buildfile build-xtools.xml --Dfeature=${GITHUB_REF##*/}
